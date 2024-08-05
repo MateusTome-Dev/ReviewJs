@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+body{
+    display: flex;
+    background-color: #101010;
+    font-family: "Roboto", sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 39px;
+    color: #737373;
+}
+.block{
+    position: fixed;
+    margin: -200px 0% 0% -200px;
+    height: 350px;
+    width: 400px;
+    background-color: #68e8ff;
+    rotate: -45deg;
+}
+.contentForm{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 500px;
+}
+.form h1{
+    text-align: center;
+}
+.form input{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    -moz-appearance: textfield;
+    font-size: 20px;
+    background-color: #c2c2c2ed;
+}
+.form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.form label{
+    margin-top: 2%;
+    font-size: 28px;
+}
+.contentBtn{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.contentBtn button{
+    font-weight: 600;
+    background-color: #68e8ff;
+    font-size: 20px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 4px;
+    border: 0px;
+}
+.contentBtn button:hover{
+    background-color: #68e8ffb7;
+}
+.btnDeletar{
+    font-weight: 600;
+    background-color: #ff1e1e;
+    font-size: 20px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 4px;
+    border: 0px;
+}
+.btnDeletar:hover{
+    background-color: #ff1e1ec9;
+}
+.blockBottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0px -200px -200px 0px;
+    height: 400px;
+    width: 350px;
+    background-color: #68e8ff;
+    rotate: 45deg;
+}
+.contentResult{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.contentResult table{
+    width: 1000px;
+    font-size: 24px;
+}
+.contentResult table tr{
+    display: flex;
+    justify-content: space-between;
+}
+.contentResult table tr th,.contentResult table tr td{
+    margin: auto;
+    width: 200px;
+    padding: 4px;
+}
+.titleResult{
+    border-bottom: 2px solid white;
+}
+.resultBody{
+    font-size: 16px;
+}
